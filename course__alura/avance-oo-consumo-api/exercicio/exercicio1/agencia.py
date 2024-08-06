@@ -1,4 +1,4 @@
-from exercicio.modelos.banco import Banco
+from exercicio.exercicio1.banco import Banco
 
 class Agencia(Banco):
     def __init__(self, nome, endereco, numero):
