@@ -15,3 +15,6 @@ class Prato(ItemCardapio):
         o nome definido na classe pai
         '''
         return self._nome
+    
+    def aplicar_desconto(self):
+        self._preco -= (self._preco * 0.05)
